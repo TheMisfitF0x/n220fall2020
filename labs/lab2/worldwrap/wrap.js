@@ -9,6 +9,15 @@ function draw()
 {
     background(0,0,0);
 
+    if(ballPos < 400)
+    {
+        fill(255, 0, 0); 
+    }
+    else
+    {
+        fill(0, 0 , 255);
+    }
+
     circle(ballPos, 300, 50);
    
     if(ballPos >= 800)
