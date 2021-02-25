@@ -2,7 +2,9 @@ let yPositions = [0];
 let xPositions = [0];
 function setup()
 {
+
 createCanvas(800, 600);
+
 }
 
 

@@ -15,6 +15,7 @@ function draw()
 
     xPosAr.shift();
     yPosAr.shift();
+    
     fill("red"); //Just a color String I picked at random, pls don't freak out
     for(let i = 0; i < xPosAr.length; i++)
     {
