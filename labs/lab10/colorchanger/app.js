@@ -32,6 +32,4 @@ function changeColor(event)
     {
         event.target.style.backgroundColor = blue;
     }
-
-
 }

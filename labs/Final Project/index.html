@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .input
+        {
+            float: left;
+            width: 50px;
+        }
+        #radius-input
+        {
+            width: 50px;
+            margin-bottom: 50px;
+        }
+
+        #update-button
+        {
+            margin-top: 75px;
+            height: 100px;
+            width: 100px;
+        }
+
+        #col1
+        {
+            width: 75px;
+            margin-right: 100px;
+        }
+
+        #col2
+        {
+            width: 75px;
+            margin-right: 100px;
+        }
+
+        #container
+        {
+            height:600px;
+            float:left;
+            background-color: darkgrey;
+        }
+
+        .colorPreview
+        {
+            height: 10px;
+            width: 60px;
+            background-color: rgb(0,0,0);
+        }
+
+        #BackgroundPreview
+        {
+            background-color: rgb(255,255,255);
+        }
+    </style>
+</head>
+
+
+<body>
+    <div id = "container" >
+        <div id = "col1" style = "float: left">
+            <h4>Brush Size</h4>
+            <input class = "input" id = "radius-input" placeholder = "Radius" data-modify = "0"/>
+            
+            <h4>Color Settings</h4>
+            <h5>RGB: 0 - 255</h5>
+            <div id = "BrushPreview" class = "colorPreview"></div>
+            <input class = "input" id = "red" placeholder = "Red" data-modify = "1"/>
+            <input class = "input" id = "green" placeholder = "Green" data-modify = "2"/>
+            <input class = "input" id = "blue" placeholder = "Blue" data-modify = "3"/>
+            <button class = "settingButton" id = "update-button" data-modify = "8">Update</button>
+        </div>
+
+        <div id = "col2" style = "float: right">
+            <h4>Shape Select</h4>
+            <button class = "settingButton" data-modify = "7" data-val = "0">Circle</button>
+            <button class = "settingButton" data-modify = "7" data-val = "1">Square</button>
+
+            <h4>Background Color Settings</h4>
+            <h5>RGB: 0 - 255</h5>
+            <div id = "BackgroundPreview" class = "colorPreview"></div>
+            <input class = "input" id = "red" placeholder = "Red" data-modify = "4"/>
+            <input class = "input" id = "green" placeholder = "Green" data-modify = "5"/>
+            <input class = "input" id = "blue" placeholder = "Blue" data-modify = "6"/>
+            <h6 id = "counter">Shapes Counter: 0</h6>
+        </div>
+        
+    </div>
+
+    <script src = "https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.3/p5.min.js"></script>
+    <script src = "app.js"></script>
+</body>
+</html>

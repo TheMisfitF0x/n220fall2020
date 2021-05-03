@@ -30,8 +30,8 @@ function addColor(event)
 
     colorCombo[addCol] += addAmt; console.log(colorCombo);
 
-    theBox.style.backgroundColor = "rgb(" + colorCombo[0] + ","+ colorCombo[1] + ","+ colorCombo[2] + ")";
+    theBox.style.backgroundColor = "rgb(" + colorCombo[0] + ","+ colorCombo[1] + "," + colorCombo[2] + ")";
     console.log(theBox.style.backgroundColor);
 
-    theInformant.innerHTML = "Color: rgb(" + colorCombo[0] + ","+ colorCombo[1] + ","+ colorCombo[2] + ")";
+    theInformant.innerHTML = "Color: rgb(" + colorCombo[0] + ","+ colorCombo[1] + "," + colorCombo[2] + ")";
 }
