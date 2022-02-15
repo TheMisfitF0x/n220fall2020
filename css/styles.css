@@ -1,0 +1,180 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html body {
+  height: 100%;
+  background-color: lightgrey;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin-bottom: 16px;
+}
+
+nav {
+  max-width: 980px;
+  height: 80px;
+  margin: 0 auto;
+  border-bottom: 2px solid white;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  z-index: 99;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+nav .logo {
+  width: 136px;
+  height: 42px;
+  background-image: url(../img/logo.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+nav .links a {
+  color: white;
+  text-decoration: none;
+}
+nav .links span {
+  color: #79ADDC;
+  margin: 0 20px;
+}
+
+.footer {
+  width: 1280px;
+  height: 100px;
+  background-color: #79ADDC;
+  margin-top: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  color: white;
+}
+.footer .logo {
+  height: 42px;
+  width: 136px;
+  background-image: url("../img/logo.png");
+}
+.footer .text {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.footer .icons {
+  font-size: larger;
+}
+
+.banner {
+  max-width: 1280px;
+  height: 500px;
+  background-image: url(../img/banner.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: -80px auto 0 auto;
+  position: relative;
+}
+.banner header {
+  position: absolute;
+  top: 162px;
+  left: 550px;
+  font-family: proxima-nova-extra-condensed, sans-serif;
+  font-size: 60px;
+  color: white;
+  text-align: center;
+}
+.banner p {
+  position: absolute;
+  top: 269px;
+  left: 283px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  margin: 0 auto;
+  width: 714px;
+  height: 50px;
+}
+
+.form-content {
+  font-family: "Gill Sans Bold", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  max-width: 818px;
+  min-height: 400px;
+  margin: 0 auto;
+}
+.form-content header {
+  font-size: 60px;
+  font-family: proxima-nova-extra-condensed, sans-serif;
+}
+.form-content .r1, .form-content .r2, .form-content .r3, .form-content .r4, .form-content .r5, .form-content .r6 {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.form-content .r1 .long-box, .form-content .r2 .long-box, .form-content .r3 .long-box, .form-content .r4 .long-box, .form-content .r5 .long-box, .form-content .r6 .long-box {
+  width: 423px;
+}
+.form-content .r1 .longer-box, .form-content .r2 .longer-box, .form-content .r3 .longer-box, .form-content .r4 .longer-box, .form-content .r5 .longer-box, .form-content .r6 .longer-box {
+  width: 698px;
+}
+.form-content .r1 .longest-box, .form-content .r2 .longest-box, .form-content .r3 .longest-box, .form-content .r4 .longest-box, .form-content .r5 .longest-box, .form-content .r6 .longest-box {
+  width: 818px;
+  height: 192px;
+}
+.form-content .r1 .line-head, .form-content .r2 .line-head, .form-content .r3 .line-head, .form-content .r4 .line-head, .form-content .r5 .line-head, .form-content .r6 .line-head {
+  width: 112px;
+}
+.form-content .r1 .sub-cat, .form-content .r2 .sub-cat, .form-content .r3 .sub-cat, .form-content .r4 .sub-cat, .form-content .r5 .sub-cat, .form-content .r6 .sub-cat {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 33%;
+}
+.form-content .r1 .sub-cat .dropdown, .form-content .r2 .sub-cat .dropdown, .form-content .r3 .sub-cat .dropdown, .form-content .r4 .sub-cat .dropdown, .form-content .r5 .sub-cat .dropdown, .form-content .r6 .sub-cat .dropdown {
+  border-width: 2px;
+  width: 103px;
+}
+.form-content .r1 input, .form-content .r1 select, .form-content .r2 input, .form-content .r2 select, .form-content .r3 input, .form-content .r3 select, .form-content .r4 input, .form-content .r4 select, .form-content .r5 input, .form-content .r5 select, .form-content .r6 input, .form-content .r6 select {
+  width: 344px;
+  height: 58px;
+  padding-left: 10px;
+  border-color: #79ADDC;
+  border-style: solid;
+}
+
+.content .box-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 980px;
+  margin: 0 auto;
+  margin-top: -50px;
+}
+.content .box-container .box1 {
+  width: 236px;
+  height: 304px;
+  background-image: url("../img/israel.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.content .box-container .box2 {
+  width: 236px;
+  height: 304px;
+  background-image: url("../img/usa.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.content .box-container .box3 {
+  width: 236px;
+  height: 304px;
+  background-image: url("../img/Australia.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/*# sourceMappingURL=styles.css.map */

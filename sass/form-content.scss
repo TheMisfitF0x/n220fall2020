@@ -1,0 +1,71 @@
+.form-content
+{
+    font-family: 'Gill Sans Bold', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    header
+    {
+        font-size: 60px;
+        font-family: proxima-nova-extra-condensed, sans-serif;
+    }
+    max-width: $homeFormWidth;
+    
+    min-height: 400px;
+    margin: $center;
+
+    
+
+    .r1, .r2, .r3, .r4, .r5, .r6
+    {
+        margin-top: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+
+        .long-box
+        {
+            width: 423px;
+        }
+
+        .longer-box
+        {
+            width: 698px;
+        }
+
+        .longest-box
+        {
+            width:$homeFormWidth;
+            height:192px;
+        }
+
+        .line-head{
+            width: 112px;
+        }
+
+        .sub-cat
+        {
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            width: 33%;
+            .dropdown
+            {
+                border-width: 2px;
+                width:103px;
+            }
+
+
+        }
+
+        input, select {
+            width: 344px;
+            height: 58px;
+            padding-left: 10px;
+            border-color: $commonBlue;
+            border-style: solid;
+
+        }
+    }
+
+    
+    
+    
+}

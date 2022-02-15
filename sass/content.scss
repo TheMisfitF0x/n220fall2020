@@ -1,0 +1,37 @@
+.content{
+    .box-container
+    {
+        
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        width: $contentWidth;
+        margin:$center;
+        margin-top: -50px; 
+
+        .box1{
+            width: 236px;
+            height: 304px;
+            background-image: url("../img/israel.png");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .box2{
+            width: 236px;
+            height: 304px;
+            background-image: url("../img/usa.png");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .box3{
+            width: 236px;
+            height: 304px;
+            background-image: url("../img/Australia.png");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    }
+}

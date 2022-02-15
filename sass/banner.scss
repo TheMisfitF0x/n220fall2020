@@ -1,0 +1,35 @@
+.banner{
+    max-width: $bannerFooterWidth;
+    height: $bannerHeight;
+    background-image: url(../img/banner.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: -80px auto 0 auto;
+    position: relative;
+    
+    
+    header{
+        position:absolute;
+        top:162px;
+        left:550px;
+        font-family: proxima-nova-extra-condensed, sans-serif;
+        font-size: 60px;
+        color: $commonWhite;
+        text-align: center;
+    }
+
+    p{
+        position:absolute;
+        top: 269px;
+        left:283px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 20px;
+        color: $commonWhite;
+        text-align: center;
+        margin: $center;
+        width: 714px;
+        height: 50px;
+    }
+    
+}
